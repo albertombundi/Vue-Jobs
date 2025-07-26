@@ -1,17 +1,15 @@
 <script setup>
-import JobListing from './JobListing.vue';
-import jobsData from '@/jobs.json'
-import { ref, defineProps } from 'vue';
-
-defineProps({
-    limit: Number,
-    showButton: {
-        type: Boolean,
-        default: false
-    }
-})
-
-const jobs = ref(jobsData);
+    import JobListing from './JobListing.vue';
+    import jobsData from '@/jobs.json'
+    import { ref, defineProps } from 'vue';
+    defineProps({
+        limit: Number,
+        showButton: {
+            type: Boolean,
+            default: false
+        }
+    })
+    const jobs = ref(jobsData);
 </script>
 
 <template>

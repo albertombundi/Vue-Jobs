@@ -8,7 +8,6 @@ const routes = createRouter({
             path: "/",
             name: "home",
             component: HomeView
-
         }
     ]
 })

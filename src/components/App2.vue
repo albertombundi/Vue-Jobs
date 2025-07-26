@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from 'vue';
+  import { onMounted, ref } from 'vue';
 
   const name = ref ('John Doe');
   const status = ref ('active');
