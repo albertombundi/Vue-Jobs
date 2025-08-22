@@ -1,5 +1,10 @@
 <script setup>
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
+import { reactive, onMounted } from 'vue';
+import { useRoute,RouterLink } from 'vue-router';
+import axios from 'axios';
 
+const route = useRoute();
 </script>
 <template>
 <section class="bg-green-50">
